@@ -1,0 +1,75 @@
+# Python 관련 파일
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# Poetry 관련 파일
+poetry.lock  # 필요에 따라 포함 여부 결정 (팀 협업 시 포함 권장)
+dist/
+build/
+*.egg-info/
+
+# Kivy 관련 파일
+*.kv~  # Kivy 파일 백업
+*.atlas
+*.log
+
+# Buildozer 관련 파일
+.bin/
+.buildozer/
+*.spec~  # Buildozer spec 파일 백업
+android/
+ios/
+.gradle/
+*.apk
+*.aab
+*.ipa
+*.keystore
+*.jks
+
+# 환경 변수 및 민감한 정보
+.env
+*.env
+*.ini
+*.cfg
+*.secret
+
+# IDE 및 편집기 관련 파일
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# 운영체제 관련 파일
+.DS_Store  # macOS
+Thumbs.db  # Windows
+*.swp
+*.swo
+
+# 테스트 및 임시 파일
+*.bak
+*.tmp
+*.temp
+*.cache
+cache/
+logs/
+*.log.*
+
+# 가상환경
+venv/
+env/
+.virtualenv/
+.virtualenvs/
+
+# 기타
+*.bak
+*.swp
+*.swo
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
